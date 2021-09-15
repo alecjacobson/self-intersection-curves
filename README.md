@@ -18,6 +18,9 @@ edges and save them to a .obj file using `l` lines.
 modifier](https://blender.stackexchange.com/a/3151/14106). You may need to select all vertices and ["Make
 Root"](https://blender.stackexchange.com/a/71941/14106)
 
+Alternatively, in blender you may use `Object->convert->curve` then in the curve
+properties `geometry->bevel`.
+
 ## Example
 
     ./self_intersection_curves ../Low_Poly_Moose{,-lines}.obj
